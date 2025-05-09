@@ -5,7 +5,7 @@ import (
 
 	sub "github.com/bastengao/gqlgen-subscription-redis"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
 )
 
 const redisChannel = "graphql_subscription_channel"

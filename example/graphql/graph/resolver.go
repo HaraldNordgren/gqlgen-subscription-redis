@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	sub "github.com/bastengao/gqlgen-subscription-redis"
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
 )
 
 type Resolver struct {
